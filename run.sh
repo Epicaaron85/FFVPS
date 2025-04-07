@@ -8,7 +8,7 @@ YELLOW='\033[0;33m'
 NC='\033[0m'
 
 # Configuration
-HOSTNAME="MyVPS"
+HOSTNAME="LePro"
 HISTORY_FILE="${HOME}/.custom_shell_history"
 MAX_HISTORY=1000
 
@@ -208,9 +208,9 @@ print_banner() {
     printf "\033c"
     printf "${GREEN}┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓${NC}\n"
     printf "${GREEN}┃                                                                             ┃${NC}\n"
-    printf "${GREEN}┃                           ${PURPLE} Pterodactyl VPS EGG ${GREEN}                             ┃${NC}\n"
+    printf "${GREEN}┃                           ${PURPLE} FREE FOR VPS ${GREEN}   		      	      ┃${NC}\n"
     printf "${GREEN}┃                                                                             ┃${NC}\n"
-    printf "${GREEN}┃                          ${RED}© 2021 - $(date +%Y) ${PURPLE}@ysdragon${GREEN}                            ┃${NC}\n"
+    printf "${GREEN}┃                          ${RED}© 2021 - $(date +%Y)				      ┃${NC}\n"
     printf "${GREEN}┃                                                                             ┃${NC}\n"
     printf "${GREEN}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛${NC}\n"
 }

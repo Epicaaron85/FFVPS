@@ -1,22 +1,7 @@
 <div align="center">
 
-# Pterodactyl VPS Egg
-
-[![License](https://img.shields.io/github/license/ysdragon/Pterodactyl-VPS-Egg)](https://github.com/ysdragon/Pterodactyl-VPS-Egg/blob/main/LICENSE)
-[![CodeFactor](https://www.codefactor.io/repository/github/ysdragon/pterodactyl-vps-egg/badge)](https://www.codefactor.io/repository/github/ysdragon/pterodactyl-vps-egg)
-
-A powerful and lightweight Virtual Private Server (VPS) egg for Pterodactyl Panel, supporting multiple architectures and operating systems.
+# FFVPS EGG
 </div>
-
-## ✨ Features
-
-- 🚀 Easy deployment and management
-- 🔧 Customizable configurations
-- 🔄 Multiple architecture support
-- 🖥️ Wide range of operating systems
-- 🔌 Multiple port support (TCP/UDP)
-   - Dynamic port mapping
-- 🚀 Custom SSH server
 
 ## 🏗️ Supported Architectures
 
@@ -50,21 +35,6 @@ A powerful and lightweight Virtual Private Server (VPS) egg for Pterodactyl Pane
 - <img width="16" height="16" src="https://www.plamolinux.org/images/garland_logo.jpg" /> Plamo Linux
 - <img width="16" height="16" src="https://linuxmint.com/web/img/favicon.ico" /> Linux Mint
 - <img width="16" height="16" src="https://en.altlinux.org/favicon.svg" /> Alt Linux
-
-## 🚀 Quick Start
-
-1. **Download the Egg**
-   - Download the `egg-vps.json` configuration file to your local machine.
-2. **Import to Pterodactyl**
-   - Navigate to the Admin Panel
-   - Go to Nests > Import Egg
-   - Upload the `egg-vps.json` file
-   - Configure as needed
-
-3. **Deploy Your VPS**
-   - Create a new server using the VPS egg
-   - Configure resources
-   - Start your instance
 
 ## How to use SSH?
 
@@ -107,10 +77,3 @@ ssh:
 sftp:
   enable: true
 ```
-
-## Contributing
-
-Contributions are welcome. If you have any suggestions, improvements, or bug fixes, feel free to submit a pull request.
-
-## License
-This project is open-source and available under the MIT License. See the [LICENSE](https://github.com/ysdragon/Pterodactyl-VPS-Egg/blob/main/LICENSE) file for more details.
